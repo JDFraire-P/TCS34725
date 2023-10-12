@@ -5,12 +5,10 @@ Esta es una librería personalizada para controlar el sensor RGB TCS34725 con co
 ## Autor
 - **Creador:** JDFraire-P
 - **Fecha:** 31 de agosto de 2023
-- **Versión:** 1.0
+- **Versión:** 1.0.0
 
 ## Dependencias
 - [Adafruit_TCS34725.h](https://github.com/adafruit/Adafruit_TCS34725)
-- [Wire.h](https://www.arduino.cc/en/Reference/Wire)
-- [JDFraire_ColorsUtils.h](https://github.com/JDFraire-P/ColorsUtils) (Biblioteca de utilidades de color que agrega tipos de color y funciones de conversión)
 
 ## Descripción
 Esta librería te permite controlar el sensor RGB TCS34725 con facilidad y ofrece las siguientes características:
@@ -26,12 +24,13 @@ Esta librería te permite controlar el sensor RGB TCS34725 con facilidad y ofrec
 1. Asegúrate de tener las dependencias instaladas.
 2. Descarga esta librería y colócala en la carpeta `libraries` de tu proyecto Arduino.
 3. Incluye la librería en tu código:
-
    ```cpp
    #include <JDFraire_TCS34725.h>
+   ```
 4. Crea una instancia del objeto RGB_Sensor con los parámetros deseados en tu código:
    ```cpp
    RGB_Sensor Color_Sensor(TCS34725_INTEGRATIONTIME_24MS, TCS34725_GAIN_60X, 6);
+   ```
 
 ### Funciones Principales
 - `bool init()`: Inicializa el sensor y configura el pin LED.

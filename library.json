@@ -1,0 +1,22 @@
+{
+  "name": "TCS34725",
+  "version": "1.0.0",
+  "description": "Custom librarie to control the RGB sensor TCS34725 with led pin control in the constructor and RG565",
+  "keywords": ["TCS34725", "Arduino"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JDFraire-P/TCS34725.git"
+  },
+  "authors": [
+    {
+      "name": "J. D. Fraire",
+      "email": "JDFraire.P@gmail.com"
+    }
+  ],
+  "dependencies":
+  {
+    "adafruit/Adafruit TCS34725": "^1.4.2"
+  },
+  "license": "MIT",
+  "frameworks": "Arduino"
+}
